@@ -1,0 +1,686 @@
+[2026/4/22 17:23:51] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync 重定向 D:\Typora\resources\app\atom.compiled.dist.jsc --> D:\Typora\resources\app.bak\atom.compiled.dist.jsc
+------------------
+[2026/4/22 17:23:51] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.openSync D:\Typora\resources\app.bak\atom.compiled.dist.jsc
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\hjson\lib\hjson.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\util\assign.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\fs\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\node_modules\universalify\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\graceful-fs\graceful-fs.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\graceful-fs\polyfills.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\graceful-fs\legacy-streams.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\graceful-fs\clone.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\copy\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\copy\copy.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\copy\ncp.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\util\utimes.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\mkdirs\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\mkdirs\mkdirs.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\mkdirs\win32.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\mkdirs\mkdirs-sync.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\path-exists\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\copy-sync\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\copy-sync\copy-sync.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\copy-sync\copy-file-sync.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\util\buffer.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\remove\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\remove\rimraf.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\json\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\json\jsonfile.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\node_modules\jsonfile\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\json\output-json-sync.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\json\output-json.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\move\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\move-sync\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\empty\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\ensure\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\ensure\file.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\ensure\link.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\ensure\symlink.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\ensure\symlink-paths.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\ensure\symlink-type.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\output\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\electron-fetch\lib\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\electron-fetch\node_modules\encoding\lib\encoding.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\iconv-lite\lib\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\iconv-lite\node_modules\safer-buffer\safer.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\iconv-lite\lib\bom-handling.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\iconv-lite\lib\streams.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync C:\Users\lenovo\AppData\Roaming\Typora/conf/conf.user.json
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\lib\fs-plus.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\underscore-plus\lib\underscore-plus.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\underscore\underscore-node.cjs
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\underscore\underscore-node-f.cjs
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\async\lib\async.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\mkdirp\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\rimraf\rimraf.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\glob\glob.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\fs.realpath\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\fs.realpath\old.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\minimatch\minimatch.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\brace-expansion\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\concat-map\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\balanced-match\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\inherits\inherits.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\path-is-absolute\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\glob\sync.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\glob\common.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\inflight\inflight.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\wrappy\wrappy.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\once\once.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync d:\typora\typora.exe
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync D:\TYPORA\TYPORA.EXE
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/typora.log
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\lowdb\lib\main.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\lowdb\node_modules\lodash\lodash.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\lowdb\node_modules\is-promise\index.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\lowdb\adapters\FileSync.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\lowdb\adapters\Base.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\lowdb\adapters\_stringify.js
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync C:\Users\lenovo\AppData\Roaming\Typora\profile.data
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync C:\Users\lenovo\AppData\Roaming\Typora\history.data
+------------------
+[2026/4/22 17:23:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\native-reg\lib\index.js
+------------------
+[2026/4/22 17:23:53] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync D:\workspace\super-agent-origin\README.md
+------------------
+[2026/4/22 17:23:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFile D:\Typora\resources\locales\zh-Hans.lproj\Menu.json
+------------------
+[2026/4/22 17:23:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\electron-progressbar\source\index.js
+------------------
+[2026/4/22 17:23:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\electron-progressbar\node_modules\extend\index.js
+------------------
+[2026/4/22 17:23:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFile D:\Typora\resources\locales\zh-Hans.lproj\Menu.json
+------------------
+[2026/4/22 17:23:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFile C:\Users\lenovo\AppData\Roaming\Typora\typora-dictionaries/user-dict.json
+------------------
+[2026/4/22 17:23:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\lenovo\AppData\Local\Temp\Typora
+------------------
+[2026/4/22 17:23:54] [Log] [&#128737;&#65039; fsHook/Promises] 程序试图 fs.promises.readFile 重定向 D:\Typora\resources\app/package.json --> D:\Typora\resources\app.bak\package.json
+------------------
+[2026/4/22 17:24:01] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFile D:\Typora\resources\locales\zh-Hans.lproj\Panel.json
+------------------
+[2026/4/22 17:24:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\lenovo\AppData\Roaming\Typora\backups
+------------------
+[2026/4/22 17:24:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/4/22 17:24:03] [Log] [&#128737;&#65039; fsHook/Promises] 程序试图 fs.promises.readFile 重定向 D:\Typora\resources\app/launch.dist.js --> D:\Typora\resources\app.bak\launch.dist.js
+------------------
+[2026/4/22 17:24:03] [Log] [&#128737;&#65039; fsHook/Promises] 程序试图 fs.promises.readFile 重定向 D:\Typora\resources\app/../page-dist/license.html --> D:\Typora\resources\app.bak\../page-dist/license.html
+------------------
+[2026/4/22 17:24:03] [Log] [&#128737;&#65039; fsHook/Promises] 程序试图 fs.promises.readFile 重定向 D:\Typora\resources\app/../page-dist/static/js/LicenseIndex.180dd4c7.5789633d.js --> D:\Typora\resources\app.bak\../page-dist/static/js/LicenseIndex.180dd4c7.5789633d.js
+------------------
+[2026/4/22 17:24:08] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\lenovo\AppData\Roaming\Typora\backups
+------------------
+[2026/4/22 17:24:08] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/framework/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%28jpg%29.jpg
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/framework/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%28jpg%29.jpg
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%B0%E7%9A%84%E5%AF%B9%E8%AF%9D.png
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%B0%E7%9A%84%E5%AF%B9%E8%AF%9D.png
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%B8%80%EF%BC%9A%E6%A0%B8%E5%BF%83%E5%AF%B9%E8%AF%9D%E6%80%BB%E8%A7%88.svg
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%B8%80%EF%BC%9A%E6%A0%B8%E5%BF%83%E5%AF%B9%E8%AF%9D%E6%80%BB%E8%A7%88.svg
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%B8%89%EF%BC%9AReAct%20Agent%20%E6%89%A7%E8%A1%8C.svg
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%B8%89%EF%BC%9AReAct%20Agent%20%E6%89%A7%E8%A1%8C.svg
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://picture-1306508146.cos.ap-beijing.myqcloud.com/super-agent/screenshot/%E8%BD%AE%E6%AC%A1%E8%AF%A6%E6%83%85-%E9%97%AE%E9%A2%98%E6%94%B9%E5%86%99.png
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://picture-1306508146.cos.ap-beijing.myqcloud.com/super-agent/screenshot/%E8%BD%AE%E6%AC%A1%E8%AF%A6%E6%83%85-%E9%97%AE%E9%A2%98%E6%94%B9%E5%86%99.png
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E5%9B%9B%EF%BC%9A%E5%89%8D%E7%BD%AE%E7%BC%96%E6%8E%92%E5%99%A8%E5%86%B3%E7%AD%96%E9%93%BE%E8%B7%AF.svg
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E5%9B%9B%EF%BC%9A%E5%89%8D%E7%BD%AE%E7%BC%96%E6%8E%92%E5%99%A8%E5%86%B3%E7%AD%96%E9%93%BE%E8%B7%AF.svg
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%BA%8C%EF%BC%9ARAG%20%E6%A3%80%E7%B4%A2%E9%93%BE%E8%B7%AF.svg
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%BA%8C%EF%BC%9ARAG%20%E6%A3%80%E7%B4%A2%E9%93%BE%E8%B7%AF.svg
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%BA%94%EF%BC%9A%E6%96%87%E6%A1%A3%E5%A4%84%E7%90%86%E6%B5%81%E6%B0%B4%E7%BA%BF.svg
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%BA%94%EF%BC%9A%E6%96%87%E6%A1%A3%E5%A4%84%E7%90%86%E6%B5%81%E6%B0%B4%E7%BA%BF.svg
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%87%E6%A1%A3%E5%88%97%E8%A1%A8.png
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%87%E6%A1%A3%E5%88%97%E8%A1%A8.png
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E5%8F%8C%E6%B5%81%E6%B0%B4%E7%BA%BF%E8%B0%83%E6%95%B4.png
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E5%8F%8C%E6%B5%81%E6%B0%B4%E7%BA%BF%E8%B0%83%E6%95%B4.png
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E9%AA%8C%E8%AF%81%E5%88%86%E5%9D%97%E7%BB%93%E6%9E%9C.png
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E9%AA%8C%E8%AF%81%E5%88%86%E5%9D%97%E7%BB%93%E6%9E%9C.png
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E5%85%AD%EF%BC%9A%E4%BC%9A%E8%AF%9D%E8%AE%B0%E5%BF%86%E6%91%98%E8%A6%81%E5%8E%8B%E7%BC%A9.svg
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E5%85%AD%EF%BC%9A%E4%BC%9A%E8%AF%9D%E8%AE%B0%E5%BF%86%E6%91%98%E8%A6%81%E5%8E%8B%E7%BC%A9.svg
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95.png
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95.png
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E8%BD%AE%E6%AC%A1%E8%AF%A6%E6%83%85-%E6%89%A7%E8%A1%8C%E9%98%B6%E6%AE%B5%E6%97%B6%E9%97%B4%E7%BA%BF.png
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E8%BD%AE%E6%AC%A1%E8%AF%A6%E6%83%85-%E6%89%A7%E8%A1%8C%E9%98%B6%E6%AE%B5%E6%97%B6%E9%97%B4%E7%BA%BF.png
+------------------
+[2026/4/22 17:24:08] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/%E4%B8%AA%E4%BA%BA/%E5%BE%AE%E4%BF%A1/javaup01.png#pic_left
+------------------
+[2026/4/22 17:24:08] [Log] request.url typeof: string value: https://multimedia-javaup.cn/%E4%B8%AA%E4%BA%BA/%E5%BE%AE%E4%BF%A1/javaup01.png#pic_left
+------------------
+[2026/4/22 17:24:10] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:24:10] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:24:10] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:24:10] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:24:11] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:24:11] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:24:11] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:24:11] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:24:24] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\lenovo\AppData\Roaming\Typora\draftsRecover
+------------------
+[2026/4/22 17:24:31] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\lenovo\AppData\Roaming\Typora\backups
+------------------
+[2026/4/22 17:24:31] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/4/22 17:24:31] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/1
+------------------
+[2026/4/22 17:24:39] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\lenovo\AppData\Roaming\Typora\backups
+------------------
+[2026/4/22 17:24:39] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/4/22 17:24:39] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/1
+------------------
+[2026/4/22 17:25:00] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:25:00] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:25:00] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync C:\Users\lenovo\AppData\Roaming\Typora\backups
+------------------
+[2026/4/22 17:25:00] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync C:\Users\lenovo\AppData\Roaming\Typora/typora.log
+------------------
+[2026/4/22 17:25:00] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:25:00] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync 重定向 D:\Typora\resources\app\atom.compiled.dist.jsc --> D:\Typora\resources\app.bak\atom.compiled.dist.jsc
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.openSync D:\Typora\resources\app.bak\atom.compiled.dist.jsc
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\hjson\lib\hjson.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\util\assign.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\fs\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\node_modules\universalify\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\graceful-fs\graceful-fs.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\graceful-fs\polyfills.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\graceful-fs\legacy-streams.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\graceful-fs\clone.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\copy\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\copy\copy.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\copy\ncp.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\util\utimes.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\mkdirs\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\mkdirs\mkdirs.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\mkdirs\win32.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\mkdirs\mkdirs-sync.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\path-exists\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\copy-sync\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\copy-sync\copy-sync.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\copy-sync\copy-file-sync.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\util\buffer.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\remove\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\remove\rimraf.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\json\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\json\jsonfile.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\node_modules\jsonfile\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\json\output-json-sync.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\json\output-json.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\move\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\move-sync\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\empty\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\ensure\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\ensure\file.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\ensure\link.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\ensure\symlink.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\ensure\symlink-paths.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\ensure\symlink-type.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-extra\lib\output\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\electron-fetch\lib\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\electron-fetch\node_modules\encoding\lib\encoding.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\iconv-lite\lib\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\iconv-lite\node_modules\safer-buffer\safer.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\iconv-lite\lib\bom-handling.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\iconv-lite\lib\streams.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync C:\Users\lenovo\AppData\Roaming\Typora/conf/conf.user.json
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\lib\fs-plus.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\underscore-plus\lib\underscore-plus.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\underscore\underscore-node.cjs
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\underscore\underscore-node-f.cjs
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\async\lib\async.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\mkdirp\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\rimraf\rimraf.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\glob\glob.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\fs.realpath\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\fs.realpath\old.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\minimatch\minimatch.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\brace-expansion\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\concat-map\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\balanced-match\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\inherits\inherits.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\path-is-absolute\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\glob\sync.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\glob\common.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\inflight\inflight.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\wrappy\wrappy.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\fs-plus\node_modules\once\once.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync d:\typora\typora.exe
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync D:\TYPORA\TYPORA.EXE
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/typora.log
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\lowdb\lib\main.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\lowdb\node_modules\lodash\lodash.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\lowdb\node_modules\is-promise\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\lowdb\adapters\FileSync.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\lowdb\adapters\Base.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\lowdb\adapters\_stringify.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync C:\Users\lenovo\AppData\Roaming\Typora\profile.data
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync C:\Users\lenovo\AppData\Roaming\Typora\history.data
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\native-reg\lib\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync D:\workspace\super-agent-origin\README.md
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFile D:\Typora\resources\locales\zh-Hans.lproj\Menu.json
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\electron-progressbar\source\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\Typora\resources\node_modules.asar\electron-progressbar\node_modules\extend\index.js
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFile D:\Typora\resources\locales\zh-Hans.lproj\Menu.json
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFile C:\Users\lenovo\AppData\Roaming\Typora\typora-dictionaries/user-dict.json
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\lenovo\AppData\Local\Temp\Typora
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\lenovo\AppData\Roaming\Typora\backups
+------------------
+[2026/4/22 17:25:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/4/22 17:25:03] [Log] [&#128737;&#65039; fsHook/Promises] 程序试图 fs.promises.readFile 重定向 D:\Typora\resources\app/package.json --> D:\Typora\resources\app.bak\package.json
+------------------
+[2026/4/22 17:25:03] [Log] [&#128737;&#65039; fsHook/Promises] 程序试图 fs.promises.readFile 重定向 D:\Typora\resources\app/launch.dist.js --> D:\Typora\resources\app.bak\launch.dist.js
+------------------
+[2026/4/22 17:25:03] [Log] [&#128737;&#65039; fsHook/Promises] 程序试图 fs.promises.readFile 重定向 D:\Typora\resources\app/../page-dist/license.html --> D:\Typora\resources\app.bak\../page-dist/license.html
+------------------
+[2026/4/22 17:25:03] [Log] [&#128737;&#65039; fsHook/Promises] 程序试图 fs.promises.readFile 重定向 D:\Typora\resources\app/../page-dist/static/js/LicenseIndex.180dd4c7.5789633d.js --> D:\Typora\resources\app.bak\../page-dist/static/js/LicenseIndex.180dd4c7.5789633d.js
+------------------
+[2026/4/22 17:25:03] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:25:03] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/framework/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%28jpg%29.jpg
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/framework/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%28jpg%29.jpg
+------------------
+[2026/4/22 17:25:04] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\lenovo\AppData\Roaming\Typora\backups
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%B0%E7%9A%84%E5%AF%B9%E8%AF%9D.png
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%B0%E7%9A%84%E5%AF%B9%E8%AF%9D.png
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%B8%80%EF%BC%9A%E6%A0%B8%E5%BF%83%E5%AF%B9%E8%AF%9D%E6%80%BB%E8%A7%88.svg
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%B8%80%EF%BC%9A%E6%A0%B8%E5%BF%83%E5%AF%B9%E8%AF%9D%E6%80%BB%E8%A7%88.svg
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%B8%89%EF%BC%9AReAct%20Agent%20%E6%89%A7%E8%A1%8C.svg
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%B8%89%EF%BC%9AReAct%20Agent%20%E6%89%A7%E8%A1%8C.svg
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://picture-1306508146.cos.ap-beijing.myqcloud.com/super-agent/screenshot/%E8%BD%AE%E6%AC%A1%E8%AF%A6%E6%83%85-%E9%97%AE%E9%A2%98%E6%94%B9%E5%86%99.png
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://picture-1306508146.cos.ap-beijing.myqcloud.com/super-agent/screenshot/%E8%BD%AE%E6%AC%A1%E8%AF%A6%E6%83%85-%E9%97%AE%E9%A2%98%E6%94%B9%E5%86%99.png
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E5%9B%9B%EF%BC%9A%E5%89%8D%E7%BD%AE%E7%BC%96%E6%8E%92%E5%99%A8%E5%86%B3%E7%AD%96%E9%93%BE%E8%B7%AF.svg
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E5%9B%9B%EF%BC%9A%E5%89%8D%E7%BD%AE%E7%BC%96%E6%8E%92%E5%99%A8%E5%86%B3%E7%AD%96%E9%93%BE%E8%B7%AF.svg
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%BA%8C%EF%BC%9ARAG%20%E6%A3%80%E7%B4%A2%E9%93%BE%E8%B7%AF.svg
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%BA%8C%EF%BC%9ARAG%20%E6%A3%80%E7%B4%A2%E9%93%BE%E8%B7%AF.svg
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%BA%94%EF%BC%9A%E6%96%87%E6%A1%A3%E5%A4%84%E7%90%86%E6%B5%81%E6%B0%B4%E7%BA%BF.svg
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%BA%94%EF%BC%9A%E6%96%87%E6%A1%A3%E5%A4%84%E7%90%86%E6%B5%81%E6%B0%B4%E7%BA%BF.svg
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%87%E6%A1%A3%E5%88%97%E8%A1%A8.png
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%87%E6%A1%A3%E5%88%97%E8%A1%A8.png
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E5%8F%8C%E6%B5%81%E6%B0%B4%E7%BA%BF%E8%B0%83%E6%95%B4.png
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E5%8F%8C%E6%B5%81%E6%B0%B4%E7%BA%BF%E8%B0%83%E6%95%B4.png
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E9%AA%8C%E8%AF%81%E5%88%86%E5%9D%97%E7%BB%93%E6%9E%9C.png
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E9%AA%8C%E8%AF%81%E5%88%86%E5%9D%97%E7%BB%93%E6%9E%9C.png
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E5%85%AD%EF%BC%9A%E4%BC%9A%E8%AF%9D%E8%AE%B0%E5%BF%86%E6%91%98%E8%A6%81%E5%8E%8B%E7%BC%A9.svg
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E5%85%AD%EF%BC%9A%E4%BC%9A%E8%AF%9D%E8%AE%B0%E5%BF%86%E6%91%98%E8%A6%81%E5%8E%8B%E7%BC%A9.svg
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95.png
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95.png
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E8%BD%AE%E6%AC%A1%E8%AF%A6%E6%83%85-%E6%89%A7%E8%A1%8C%E9%98%B6%E6%AE%B5%E6%97%B6%E9%97%B4%E7%BA%BF.png
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E8%BD%AE%E6%AC%A1%E8%AF%A6%E6%83%85-%E6%89%A7%E8%A1%8C%E9%98%B6%E6%AE%B5%E6%97%B6%E9%97%B4%E7%BA%BF.png
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/%E4%B8%AA%E4%BA%BA/%E5%BE%AE%E4%BF%A1/javaup01.png#pic_left
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://multimedia-javaup.cn/%E4%B8%AA%E4%BA%BA/%E5%BE%AE%E4%BF%A1/javaup01.png#pic_left
+------------------
+[2026/4/22 17:25:04] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:25:04] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:25:04] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:25:05] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFile D:\Typora\resources\locales\zh-Hans.lproj\Panel.json
+------------------
+[2026/4/22 17:25:09] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%B0%E7%9A%84%E5%AF%B9%E8%AF%9D.png
+------------------
+[2026/4/22 17:25:09] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%B0%E7%9A%84%E5%AF%B9%E8%AF%9D.png
+------------------
+[2026/4/22 17:25:09] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%B0%E7%9A%84%E5%AF%B9%E8%AF%9D.png
+------------------
+[2026/4/22 17:25:09] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%B0%E7%9A%84%E5%AF%B9%E8%AF%9D.png
+------------------
+[2026/4/22 17:25:20] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%B0%E7%9A%84%E5%AF%B9%E8%AF%9D.png
+------------------
+[2026/4/22 17:25:20] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%B0%E7%9A%84%E5%AF%B9%E8%AF%9D.png
+------------------
+[2026/4/22 17:25:32] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\lenovo\AppData\Roaming\Typora\draftsRecover
+------------------
+[2026/4/22 17:25:49] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/%E4%B8%AA%E4%BA%BA/%E5%BE%AE%E4%BF%A1/javaup01.png#pic_left
+------------------
+[2026/4/22 17:25:49] [Log] request.url typeof: string value: https://multimedia-javaup.cn/%E4%B8%AA%E4%BA%BA/%E5%BE%AE%E4%BF%A1/javaup01.png#pic_left
+------------------
+[2026/4/22 17:25:49] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/%E4%B8%AA%E4%BA%BA/%E5%BE%AE%E4%BF%A1/javaup01.png#pic_left
+------------------
+[2026/4/22 17:25:49] [Log] request.url typeof: string value: https://multimedia-javaup.cn/%E4%B8%AA%E4%BA%BA/%E5%BE%AE%E4%BF%A1/javaup01.png#pic_left
+------------------
+[2026/4/22 17:25:50] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\lenovo\AppData\Roaming\Typora\backups
+------------------
+[2026/4/22 17:25:50] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/4/22 17:25:50] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/1
+------------------
+[2026/4/22 17:26:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\lenovo\AppData\Roaming\Typora\backups
+------------------
+[2026/4/22 17:26:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/4/22 17:26:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/1
+------------------
+[2026/4/22 17:26:03] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\lenovo\AppData\Roaming\Typora\backups
+------------------
+[2026/4/22 17:26:03] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/4/22 17:26:03] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\lenovo\AppData\Roaming\Typora/backups/1
+------------------
+[2026/4/22 17:26:20] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%B0%E7%9A%84%E5%AF%B9%E8%AF%9D.png
+------------------
+[2026/4/22 17:26:20] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%B0%E7%9A%84%E5%AF%B9%E8%AF%9D.png
+------------------
+[2026/4/22 17:26:20] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%B8%80%EF%BC%9A%E6%A0%B8%E5%BF%83%E5%AF%B9%E8%AF%9D%E6%80%BB%E8%A7%88.svg
+------------------
+[2026/4/22 17:26:20] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%B8%80%EF%BC%9A%E6%A0%B8%E5%BF%83%E5%AF%B9%E8%AF%9D%E6%80%BB%E8%A7%88.svg
+------------------
+[2026/4/22 17:26:20] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%B8%89%EF%BC%9AReAct%20Agent%20%E6%89%A7%E8%A1%8C.svg
+------------------
+[2026/4/22 17:26:20] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%B8%89%EF%BC%9AReAct%20Agent%20%E6%89%A7%E8%A1%8C.svg
+------------------
+[2026/4/22 17:26:20] [Log] [&#128064;electron.net Request] GET https://picture-1306508146.cos.ap-beijing.myqcloud.com/super-agent/screenshot/%E8%BD%AE%E6%AC%A1%E8%AF%A6%E6%83%85-%E9%97%AE%E9%A2%98%E6%94%B9%E5%86%99.png
+------------------
+[2026/4/22 17:26:20] [Log] request.url typeof: string value: https://picture-1306508146.cos.ap-beijing.myqcloud.com/super-agent/screenshot/%E8%BD%AE%E6%AC%A1%E8%AF%A6%E6%83%85-%E9%97%AE%E9%A2%98%E6%94%B9%E5%86%99.png
+------------------
+[2026/4/22 17:26:20] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E5%9B%9B%EF%BC%9A%E5%89%8D%E7%BD%AE%E7%BC%96%E6%8E%92%E5%99%A8%E5%86%B3%E7%AD%96%E9%93%BE%E8%B7%AF.svg
+------------------
+[2026/4/22 17:26:20] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E5%9B%9B%EF%BC%9A%E5%89%8D%E7%BD%AE%E7%BC%96%E6%8E%92%E5%99%A8%E5%86%B3%E7%AD%96%E9%93%BE%E8%B7%AF.svg
+------------------
+[2026/4/22 17:26:20] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%BA%8C%EF%BC%9ARAG%20%E6%A3%80%E7%B4%A2%E9%93%BE%E8%B7%AF.svg
+------------------
+[2026/4/22 17:26:20] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%BA%8C%EF%BC%9ARAG%20%E6%A3%80%E7%B4%A2%E9%93%BE%E8%B7%AF.svg
+------------------
+[2026/4/22 17:26:20] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%BA%94%EF%BC%9A%E6%96%87%E6%A1%A3%E5%A4%84%E7%90%86%E6%B5%81%E6%B0%B4%E7%BA%BF.svg
+------------------
+[2026/4/22 17:26:20] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E4%BA%94%EF%BC%9A%E6%96%87%E6%A1%A3%E5%A4%84%E7%90%86%E6%B5%81%E6%B0%B4%E7%BA%BF.svg
+------------------
+[2026/4/22 17:26:20] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%87%E6%A1%A3%E5%88%97%E8%A1%A8.png
+------------------
+[2026/4/22 17:26:20] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E6%96%87%E6%A1%A3%E5%88%97%E8%A1%A8.png
+------------------
+[2026/4/22 17:26:20] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E5%8F%8C%E6%B5%81%E6%B0%B4%E7%BA%BF%E8%B0%83%E6%95%B4.png
+------------------
+[2026/4/22 17:26:20] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E5%8F%8C%E6%B5%81%E6%B0%B4%E7%BA%BF%E8%B0%83%E6%95%B4.png
+------------------
+[2026/4/22 17:26:20] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E9%AA%8C%E8%AF%81%E5%88%86%E5%9D%97%E7%BB%93%E6%9E%9C.png
+------------------
+[2026/4/22 17:26:20] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E9%AA%8C%E8%AF%81%E5%88%86%E5%9D%97%E7%BB%93%E6%9E%9C.png
+------------------
+[2026/4/22 17:26:20] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E5%85%AD%EF%BC%9A%E4%BC%9A%E8%AF%9D%E8%AE%B0%E5%BF%86%E6%91%98%E8%A6%81%E5%8E%8B%E7%BC%A9.svg
+------------------
+[2026/4/22 17:26:20] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/flow-chart/%E5%9B%BE%E5%85%AD%EF%BC%9A%E4%BC%9A%E8%AF%9D%E8%AE%B0%E5%BF%86%E6%91%98%E8%A6%81%E5%8E%8B%E7%BC%A9.svg
+------------------
+[2026/4/22 17:26:20] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95.png
+------------------
+[2026/4/22 17:26:20] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95.png
+------------------
+[2026/4/22 17:26:20] [Log] [&#128064;electron.net Request] GET https://multimedia-javaup.cn/super-agent/screenshot/%E8%BD%AE%E6%AC%A1%E8%AF%A6%E6%83%85-%E6%89%A7%E8%A1%8C%E9%98%B6%E6%AE%B5%E6%97%B6%E9%97%B4%E7%BA%BF.png
+------------------
+[2026/4/22 17:26:20] [Log] request.url typeof: string value: https://multimedia-javaup.cn/super-agent/screenshot/%E8%BD%AE%E6%AC%A1%E8%AF%A6%E6%83%85-%E6%89%A7%E8%A1%8C%E9%98%B6%E6%AE%B5%E6%97%B6%E9%97%B4%E7%BA%BF.png
+------------------
+[2026/4/22 17:26:24] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:26:24] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:26:24] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:26:24] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:26:24] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:26:24] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:26:24] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:26:24] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:44:07] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:44:07] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:44:07] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync C:\Users\lenovo\AppData\Roaming\Typora\backups
+------------------
+[2026/4/22 17:44:07] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync C:\Users\lenovo\AppData\Roaming\Typora/typora.log
+------------------
+[2026/4/22 17:44:07] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/4/22 17:44:07] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
