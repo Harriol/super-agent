@@ -1,0 +1,95 @@
+name: super-agent-infra
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: sa-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: super_agent_pgvector
+      TZ: Asia/Shanghai
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+      - ./sql/PostgresSql/create_table_postgres_sql.sql:/docker-entrypoint-initdb.d/01-create-table.sql:ro
+
+  redis:
+    image: redis:7
+    container_name: sa-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+
+  kafka:
+    image: apache/kafka:3.7.0
+    container_name: sa-kafka
+    ports:
+      - "9092:9092"
+    environment:
+      CLUSTER_ID: MkU3OEVBNTcwNTJENDM2Qk
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092,CONTROLLER://0.0.0.0:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://127.0.0.1:9092
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+    volumes:
+      - kafka-data:/var/lib/kafka/data
+
+  minio:
+    image: minio/minio:RELEASE.2024-01-01T16-36-33Z
+    container_name: sa-minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: root
+      MINIO_ROOT_PASSWORD: 12345678
+    ports:
+      - "9005:9000"   # 关键：映射到 9005，和后端配置一致
+      - "9001:9001"   # 管理控制台
+    volumes:
+      - minio-data:/data
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.3
+    container_name: sa-es
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports:
+      - "9200:9200"
+    volumes:
+      - es-data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://127.0.0.1:9200 || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+
+  neo4j:
+    image: neo4j:5
+    container_name: sa-neo4j
+    environment:
+      NEO4J_AUTH: neo4j/root12345
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - neo4j-data:/data
+
+volumes:
+  pg-data:
+  redis-data:
+  kafka-data:
+  minio-data:
+  es-data:
+  neo4j-data:

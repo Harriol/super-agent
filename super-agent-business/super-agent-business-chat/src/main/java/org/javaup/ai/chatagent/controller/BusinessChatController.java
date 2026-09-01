@@ -37,26 +37,50 @@ public class BusinessChatController {
 
     private final BusinessChatService businessChatService;
 
+    /**
+     * 实现SSE流式对话接口，接收问题+会话ID+对话模式
+     * @param dto
+     * @return
+     */
     @PostMapping(value = "/stream", produces = "text/event-stream;charset=UTF-8")
     public Flux<String> stream(@Valid @RequestBody ChatRequestDto dto) {
         return businessChatService.openConversationStream(dto);
     }
 
+    /**
+     * 列出可检索的知识文档列表
+     * @return
+     */
     @PostMapping("/document/options")
     public ApiResponse<java.util.List<KnowledgeDocumentOptionView>> documentOptions() {
         return ApiResponse.ok(businessChatService.listKnowledgeDocumentOptions());
     }
 
+    /**
+     * 停止正在进行的会话
+     * @param dto
+     * @return
+     */
     @PostMapping("/session/stop")
     public ApiResponse<ConversationStopVo> stop(@Valid @RequestBody ConversationIdentityDto dto) {
         return ApiResponse.ok(businessChatService.stopConversation(dto.getConversationId()));
     }
 
+    /**
+     * 查询会话详情
+     * @param dto
+     * @return
+     */
     @PostMapping("/session/detail")
     public ApiResponse<ConversationSessionView> session(@Valid @RequestBody ConversationIdentityDto dto) {
         return ApiResponse.ok(businessChatService.getSession(dto.getConversationId()));
     }
 
+    /**
+     *
+     * @param dto
+     * @return
+     */
     @PostMapping("/exchange/detail")
     public ApiResponse<ConversationExchangeDetailView> exchange(@Valid @RequestBody ConversationExchangeDetailQueryDto dto) {
         return ApiResponse.ok(businessChatService.getExchangeDetail(dto.getConversationId(), dto.getExchangeId()));
