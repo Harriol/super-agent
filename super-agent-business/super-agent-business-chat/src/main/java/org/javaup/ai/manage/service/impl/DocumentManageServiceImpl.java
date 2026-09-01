@@ -97,6 +97,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.LinkedHashMap;
@@ -328,7 +329,17 @@ public class DocumentManageServiceImpl implements DocumentManageService {
                 "当前文档存在进行中的任务，请等待任务结束后再删除。");
         }
 
-        storageService.deleteObjects(List.of(document.getObjectName(), document.getParseTextPath()));
+        // parseTextPath 可能为 null（解析失败的文档），不能进 List.of
+        List<String> objectKeys = new ArrayList<>(2);
+        if (StrUtil.isNotBlank(document.getObjectName())) {
+            objectKeys.add(document.getObjectName());
+        }
+        if (StrUtil.isNotBlank(document.getParseTextPath())) {
+            objectKeys.add(document.getParseTextPath());
+        }
+        if (!objectKeys.isEmpty()) {
+            storageService.deleteObjects(objectKeys);
+        }
         vectorGateway.deleteByDocumentId(documentId);
 
         DocumentKeywordSearchGateway keywordSearchGateway = keywordSearchGatewayProvider.getIfAvailable();

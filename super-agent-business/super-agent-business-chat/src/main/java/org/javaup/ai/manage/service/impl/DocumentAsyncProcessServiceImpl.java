@@ -290,7 +290,7 @@ public class DocumentAsyncProcessServiceImpl implements DocumentAsyncProcessServ
             log.error("异步解析文档失败，documentId={}, taskId={}", documentId, taskId, exception);
 
             document.setParseStatus(DocumentParseStatusEnum.PARSE_FAILED.getCode());
-            document.setParseErrorMsg(exception.getMessage());
+            document.setParseErrorMsg(truncateError(exception.getMessage()));
             documentMapper.updateById(document);
 
             failTask(task, startTime, exception, DocumentTaskStageEnum.CONTENT_PARSE.getCode());
@@ -649,8 +649,19 @@ public class DocumentAsyncProcessServiceImpl implements DocumentAsyncProcessServ
         task.setFinishTime(finishTime);
         task.setCostMillis(finishTime.getTime() - startTime.getTime());
         task.setErrorCode("TASK_FAILED");
-        task.setErrorMsg(exception.getMessage());
+        task.setErrorMsg(truncateError(exception.getMessage()));
         taskMapper.updateById(task);
+    }
+
+    /**
+     * 把异常信息截断到数据库 error_msg 列能容纳的长度，
+     * 避免超长报错(如整条 SQL)塞爆 varchar 列导致任务状态无法更新。
+     */
+    private String truncateError(String message) {
+        if (message == null || message.length() <= 900) {
+            return message;
+        }
+        return message.substring(0, 900) + "...(truncated)";
     }
 
     private int estimateTokenCount(String text) {

@@ -43,9 +43,9 @@ public class ChatRagProperties {
 
     private int answerHistoryMaxChars = 1000;
 
-    private int totalEvidenceMaxChars = 5200;
+    private int totalEvidenceMaxChars = 9000;
 
-    private int perSubQuestionEvidenceMaxChars = 2200;
+    private int perSubQuestionEvidenceMaxChars = 5000;
 
     private long channelTimeoutMs = 5000L;
 

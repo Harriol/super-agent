@@ -169,7 +169,7 @@ public class RagPromptAssemblyService {
             .append("；章节：")
             .append(StrUtil.blankToDefault(reference.getSectionPath(), "未识别"))
             .append("\n内容：")
-            .append(trimSnippet(reference.getSnippet(), 1100))
+            .append(trimSnippet(reference.getSnippet(), 1800))
             .append("\n\n")
             .toString();
     }

@@ -222,22 +222,26 @@ public class ChatPreparationOrchestrator {
                 routedDocumentId = Long.valueOf(topDocument.getDocumentId());
                 routedDocumentName = topDocument.getDocumentName();
                 routedTaskId = Long.valueOf(topDocument.getLastIndexTaskId());
+                // 高置信度已锁定 top 文档时，检索范围收敛到该文档，
+                // 避免其他候选文档的 chunk 挤占 finalTopK，导致目标文档内容被遗漏。
+                routedDocumentIds = List.of(routedDocumentId);
+                routedTaskIds = List.of(routedTaskId);
             }
             else {
                 routedDocumentId = null;
                 routedDocumentName = "";
                 routedTaskId = null;
+                routedDocumentIds = candidateDocuments.stream()
+                    .map(DocumentRouteCandidate::getDocumentId)
+                    .filter(StrUtil::isNotBlank)
+                    .map(Long::valueOf)
+                    .toList();
+                routedTaskIds = candidateDocuments.stream()
+                    .map(DocumentRouteCandidate::getLastIndexTaskId)
+                    .filter(StrUtil::isNotBlank)
+                    .map(Long::valueOf)
+                    .toList();
             }
-            routedDocumentIds = candidateDocuments.stream()
-                .map(DocumentRouteCandidate::getDocumentId)
-                .filter(StrUtil::isNotBlank)
-                .map(Long::valueOf)
-                .toList();
-            routedTaskIds = candidateDocuments.stream()
-                .map(DocumentRouteCandidate::getLastIndexTaskId)
-                .filter(StrUtil::isNotBlank)
-                .map(Long::valueOf)
-                .toList();
             if (traceRecorder != null) {
                 traceRecorder.completeStage(
                     traceRecorder.startStage(ConversationTraceStageCode.ROUTE, "AUTO_DOCUMENT", "正在生成知识范围候选。", null),
